@@ -1,31 +1,31 @@
-code {
-    color: red;
-    font-family: monospace;
+body {
+    font-family: sans-serif;
 }
 
-h1 {
+.highlighted-code {
+    color: green;
+}
+
+#assignment-instructions {
     color: blue;
     font-family: sans-serif;
 }
 
-.green {
-    color: green;
-}
-
-body {
-    font-family: sans-serif;
+code {
+    color: red;
+    font-family: monospace;
 }
 
 li {
     font-family: inherit;
 }
 
-ol li ~ li{
+li + li{
     background: black;
     color: white;
 }
 
-ol li {
+ol > li {
     background: black;
     color: white;
 }
